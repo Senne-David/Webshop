@@ -1,0 +1,24 @@
+﻿<Window x:Class="Webshop_WPF.Productentoevoegen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Webshop_WPF"
+        mc:Ignorable="d"
+        Title="Productentoevoegen" Height="450" Width="400">
+    <Grid>
+        <Label Content="Producten toevoegen" FontSize="18" HorizontalAlignment="Left" Margin="30,25,0,0" VerticalAlignment="Top"/>
+        <Label Content="Naam" HorizontalAlignment="Left" Margin="50,80,0,0" VerticalAlignment="Top" Height="25"/>
+        <Label Content="Categorie" HorizontalAlignment="Left" Margin="50,150,0,0" VerticalAlignment="Top" Height="25"/>
+        <Label Content="Omschrijving" HorizontalAlignment="Left" Margin="50,230,0,0" VerticalAlignment="Top" Height="25"/>
+        <Label Content="Prijs" HorizontalAlignment="Left" Margin="50,310,0,0" VerticalAlignment="Top" Height="25"/>
+        <TextBox x:Name="tbxNaam" HorizontalAlignment="Left" Height="23" Margin="50,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbxCategorie" HorizontalAlignment="Left" Height="23" Margin="50,175,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbxOmschrijving" HorizontalAlignment="Left" Height="23" Margin="50,255,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbxPrijs" HorizontalAlignment="Left" Height="23" Margin="50,335,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnToevoegen" Content="Toevoegen" HorizontalAlignment="Left" Margin="50,391,0,0" VerticalAlignment="Top" Width="75" Click="btnToevoegen_Click"/>
+        <Button x:Name="btnBack" Content="Terug" HorizontalAlignment="Left" Margin="309,391,0,0" VerticalAlignment="Top" Width="75" Click="btnBack_Click"/>
+        <Button x:Name="btnWinkelwagen" Content="Winkelwagen" HorizontalAlignment="Left" Margin="309,350,0,0" VerticalAlignment="Top" Width="75" Height="24" Click="btnWinkelwagen_Click"/>
+
+    </Grid>
+</Window>

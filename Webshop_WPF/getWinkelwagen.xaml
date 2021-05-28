@@ -1,0 +1,17 @@
+﻿<Window x:Class="Webshop_WPF.getWinkelwagen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Webshop_WPF"
+        mc:Ignorable="d"
+        Title="getWinkelwagen" Height="700" Width="1000">
+    <Grid>
+        <ListBox x:Name="lbxWinkelwagen" HorizontalAlignment="Left" Height="499" Margin="10,82,0,0" VerticalAlignment="Top" Width="490" BorderBrush="Black" SelectionChanged="lbxWinkelwagen_SelectionChanged" Background="#FFEDEDED"/>
+        <Button x:Name="btnClose" Content="Sluiten" HorizontalAlignment="Left" Margin="10,614,0,0" VerticalAlignment="Top" Width="166" Click="btnClose_Click" Height="46"/>
+        <Label Content="Winkelwagens" FontSize="23" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="67" Width="490"/>
+        <ListBox x:Name="lbxAantallen" HorizontalAlignment="Left" Height="504" Margin="522,77,0,0" VerticalAlignment="Top" Width="462" Background="#FFEDEDED" BorderBrush="Black"/>
+        <Label Content="Winkelwagen heeft producten en aantallen" FontSize="23" HorizontalAlignment="Left" Margin="522,10,0,0" VerticalAlignment="Top" Height="67" Width="462"/>
+
+    </Grid>
+</Window>
